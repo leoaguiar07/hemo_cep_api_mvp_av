@@ -110,7 +110,7 @@ $ docker build -t nome_da_sua_imagem .
 Uma vez criada a imagem, para executar o container basta executar, **como administrador**, seguinte o comando:
 
 ```
-$ docker run -p 5000:5000 nome_da_sua_imagem
+$ docker run -d -p 5000:5000 nome_da_sua_imagem
 ```
 
 Uma vez executando, para acessar a API, basta abrir o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador.
